@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterSuccessActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo_registrasi_sukses"
+        android:id="@+id/logo_registrasi_sukses"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRASI BERHASIL"
+        android:textSize="15sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="230dp"
+        android:layout_below="@id/logo_registrasi_sukses"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/autour_one"
+        android:textStyle="bold"
+        android:id="@+id/tv_registrasi_berhasil"/>
+
+    <Button
+        android:id="@+id/btn_login_succees"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_registrasi_berhasil"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:backgroundTint="@color/FEA700"/>
+
+</RelativeLayout>

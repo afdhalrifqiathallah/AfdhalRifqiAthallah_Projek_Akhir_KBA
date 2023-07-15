@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/afdhalrifqiathallahprofile"
+        android:id="@+id/afdhalprofile"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Afdhal Rifqi Athallah"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/afdhalprofile"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/autour_one"
+        android:id="@+id/nama_afdhalrifqia"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HIMTI - 2022"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/nama_afdhalrifqia"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/autour_one"
+        android:id="@+id/tv_angkatanhimti"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_marginHorizontal="19dp"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/contrainer20dpreadius"
+        android:layout_below="@+id/tv_angkatanhimti">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="111dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="-4dp"
+            android:src="@drawable/img"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/mahasiswa"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MAHASISWA"
+                android:fontFamily="@font/autour_one"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
